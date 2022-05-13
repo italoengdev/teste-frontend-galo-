@@ -265,8 +265,25 @@ li{
   align-items: center;
 }
 
+li:hover{
+  background-color: #FDF1EB;
+  margin-left: 5px;
+  transition: all .4s ease;
+-webkit-transition: all .4s ease;
+}
+
 li h4{ 
   margin-left: 24px;
+}
+
+.orange-stripe{
+  width: 5px;
+  height: 33px;
+  background: linear-gradient(180deg, #FFB455 0%, #ED7839 100%);
+}
+
+.background-li{
+  background:  #FDF1EB;
 }
 
 b{
@@ -396,6 +413,10 @@ justify-content: center;
 align-items: center;
 position: relative;
 left: 44%;
+}
+
+.creat-topic:hover{
+  cursor: pointer;
 }
 
 .creat-topic i{
