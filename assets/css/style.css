@@ -1,6 +1,6 @@
 .body-content{  display: grid;
   grid-template-columns: 0.4fr 1.6fr 1fr;
-  grid-template-rows: 0.2fr 0.4fr 2fr 0.8fr 3fr 0.4fr;
+  grid-template-rows: 0.04fr 0.06fr 1.4fr .6fr 2fr 0.4fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
@@ -175,6 +175,8 @@ margin-left: 45px;
 .content-video { grid-area: content-video; 
   margin-left: 36px;
   margin-bottom: 27px;
+  width: 783px;
+  height: 439px;
 }
 
 .content-details { grid-area: content-details; 
@@ -292,10 +294,11 @@ b{
 
 .content-resume { grid-area: content-resume; 
 width: 1058px;
-height: 189px;
+height: auto;
 margin-left: 37px;
 border: 1px solid #ECECEC;
 border-radius: 3px;
+flex-wrap: wrap;
 }
 
 .resume-tittle{
@@ -335,6 +338,7 @@ text-align:justify;
   cursor: pointer;
 }
 
+#more {display: none;}
 
 .content-discussions { 
   grid-area: content-discussions;

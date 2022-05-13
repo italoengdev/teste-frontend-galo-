@@ -13,7 +13,7 @@
     ></script>
   </head>
   <body>
-    <div class="body-content">
+    <div class="body-content" id="change-body-row">
       <div class="side-menu">
         <div class="slaca">
           <h1>SLACA 2019</h1>
@@ -27,7 +27,10 @@
             <li><h4>Comitês</h4></li>
             <li><h4>Autores</h4></li>
             <li><h4>Eixos Temáticos</h4></li>
-            <li class="background-li"><span class="orange-stripe"></span><h4>Trabalhos</h4></li>
+            <li class="background-li">
+              <span class="orange-stripe"></span>
+              <h4>Trabalhos</h4>
+            </li>
             <li><h4>Contato</h4></li>
           </ul>
         </div>
@@ -137,8 +140,31 @@
             vestibulum Phasellus condimentum orci id leo condimentum lobortis et
             non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien
             scelerisque, ac gravida eros vestibulum. Etiam aliquam dictum nisl,
-            vel aliquet enim accumsan sit ametl accumsant...
-            <b class="see-more">ver mais</b>
+            vel aliquet enim accumsan sit ametl accumsant<span id="dots"
+              >...</span
+            >
+            <span onclick="seeMore()" id="myBtn" class="see-more">ver mais</span
+            ><span id="more"
+              >erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices
+              nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue
+              ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum
+              dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare
+              turpis. Donec vitae dui eget tellus gravida venenatis. Integer
+              fringilla congue eros non fermentum. Sed dapibus pulvinar nibh
+              tempor porta. erisque enim ligula venenatis dolor. Maecenas nisl
+              est, ultrices nec congue eget, auctor vitae massa. Fusce luctus
+              vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed
+              ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis
+              imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida
+              venenatis. Integer fringilla congue eros non fermentum. Sed
+              dapibus pulvinar nibh tempor porta. erisque enim ligula venenatis
+              dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae
+              massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis
+              dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed
+              nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget
+              tellus gravida venenatis. Integer fringilla congue eros non
+              fermentum. Sed dapibus pulvinar nibh tempor porta.
+            </span>
           </h5>
         </div>
       </div>
@@ -199,6 +225,7 @@
       <footer class="footer">
         <img src="/assets/img/footer.svg" alt="footer galoá" />
       </footer>
+      <script src="/assets/js/see-more.js"></script>
     </div>
   </body>
 </html>
