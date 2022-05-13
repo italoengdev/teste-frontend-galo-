@@ -163,7 +163,7 @@
               dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed
               nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget
               tellus gravida venenatis. Integer fringilla congue eros non
-              fermentum. Sed dapibus pulvinar nibh tempor porta.
+              fermentum. Sed dapibus pulvinar nibh tempor porta.<span id="less" onclick="seeMore()">ver menos</span>
             </span>
           </h5>
         </div>
@@ -173,7 +173,22 @@
         <div class="disc-tittle">
           <h4>Discussões</h4>
         </div>
-        <div class="disc-content">
+
+        <div id="creatingTopic">
+          <p>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
+          <form id="regForm" action="">
+            <div id="tab">Assunto
+              <p><input placeholder="Defina um tópico sucinto para notificar os autores..." oninput="this.className = ''" name="subject"></p>Conteúdo
+              <p><input placeholder="Escreva aqui seu tópico..." oninput="this.className = ''" name="content-topic"></p>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="disc-content" id="topic-creation">
           <p>Compartilhe suas ideias ou dúvidas com os autores!</p>
           <div class="disc-icons">
             <img src="/assets/img/icons_hand_seed.svg" alt="mão e semente" />
@@ -185,7 +200,7 @@
             é a curiosidade? Deixe seus questionamentos ou sugestões para o
             autor!
           </h5>
-          <div class="creat-topic">
+          <div class="creat-topic" onclick="createTopic()">
             <i class="fa-solid fa-plus"></i>
             <h4>criar tópico</h4>
           </div>
@@ -226,6 +241,7 @@
         <img src="/assets/img/footer.svg" alt="footer galoá" />
       </footer>
       <script src="/assets/js/see-more.js"></script>
+      <script src="/assets/js/topic-creation.js"></script>
     </div>
   </body>
 </html>
