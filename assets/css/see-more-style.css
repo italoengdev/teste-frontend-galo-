@@ -1,0 +1,17 @@
+.see-more{
+  color: #ED7839;
+}
+
+.see-more:hover{
+  cursor: pointer;
+}
+
+#more {display: none;}
+
+#less{
+  color: #ED7839;
+}
+
+#less:hover{
+  cursor: pointer;
+}

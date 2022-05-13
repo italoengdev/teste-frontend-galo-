@@ -1,0 +1,57 @@
+.content-details { grid-area: content-details; 
+  margin-left: 31px;
+  margin-right: 41px;
+  margin-bottom: 30px;
+  width: 242px;
+  height: 439px;
+  border: 1px solid #ECECEC;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .details-tittle{
+    background-color: #FDF1EB;
+    height: 45px;
+  }
+  
+  .details-tittle h4{
+    color: #4E4E4E;
+    font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  margin: 11px 15px 9px 15px;
+  }
+  
+  .content-details .details-description{
+    font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #5C5C5C;
+  margin: 15px;
+  }
+  
+  .details-authors{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .details-uni{
+    font-size: 12px;
+  }
+  
+  .content-details p{
+    margin-bottom: 4px;
+  }
+  
+  
+  
+  b{
+    font-weight: bold;
+  }
