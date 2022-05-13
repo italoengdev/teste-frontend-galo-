@@ -415,7 +415,10 @@ margin: 35px 215px 14px 215px;
 #creatingTopic{
   border: 1px solid #E7E7E7;
   padding-bottom: 15px;
+  padding-right: -30px;
   margin: 15px;
+  display: none;
+  margin-bottom: -15px;
 }
 
 #creatingTopic p{
@@ -426,7 +429,7 @@ margin: 35px 215px 14px 215px;
   line-height: 18px;
   text-align: center;
   color: #5C5C5C;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 #tab{
@@ -439,17 +442,37 @@ color: #ED7839;
 margin-left: 17.5px;
 }
 
-#tab input{
-  background: #FFFFFF;
-border: 1px solid #CCCCCC;
-border-radius: 3px;
+#tab p{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #ED7839;
+text-align: left;
+
 }
 
-#tab input:nth-child(1){
+#tab-1{
   height: 39px;
   width: 1000px;
 }
 
+#tab-2{
+  height: 113px;
+  width: 1000px;
+}
+
+#tab-submit{
+  left: 802px;
+  position: relative;
+  top: -32px;
+  width: 205px;
+  height: 31px;
+  background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+border-radius: 0px 0px 4px 0px;
+color: #FFFFFF;
+}
 
 .creat-topic{
   background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
