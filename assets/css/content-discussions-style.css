@@ -32,7 +32,7 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 }
-.disc-content p{
+#topic-creation p{
   margin: 15px auto 27px auto;
   display: flex;
   justify-content: center;
@@ -138,4 +138,98 @@ margin-left: 24px ;
 
 .topic-icons i:nth-child(2){
   margin-left: 20px;
+}
+
+/* CREATION TOPIC CSS */
+
+.recreat-topic{
+background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+border-radius: 4px;
+display: flex;
+flex-direction: row;
+width: 180px;
+height: 32px;
+color: #FFFFFF;
+justify-content: center;
+align-items: center;
+position: relative;
+left: 41.5%;
+}
+
+.recreat-topic:hover{
+  cursor: pointer;
+}
+
+.recreat-topic i{
+padding: 10px;
+}
+
+#topic-submit{
+ display: none;
+}
+
+#topic-submit .topic-text-send{
+  margin: 15px auto 27px auto;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ED7839;
+}
+
+#topic-submit h4:first{
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #595959;
+}
+
+#topic-submit:nth-child(2) > h4:nth-child(2) {
+  position: relative;
+  left: 33px;
+  text-align: center;
+  margin: 0px 0px 10px 0px;
+ }
+
+#topic-submit h3{
+  font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 137.5%;
+text-align: center;
+text-decoration-line: underline;
+color: #F48F44;
+margin-bottom: 30px;
+}
+
+#submit-feedback{
+box-sizing: border-box;
+background: hsla(0, 0%, 91%, 1);
+border: 1px solid #E7E7E7;
+border-radius: 4px;
+width: 1028px;
+height: 148px;
+margin: 14px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-content: center;
+}
+
+#img-check-submit{
+width: 31px;
+height: 23px;
+margin: 35px auto 7px auto;
+}
+
+#submit-feedback p{
+  margin-top: 10px;
+  margin-bottom: 5px;
 }

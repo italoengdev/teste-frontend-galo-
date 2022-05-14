@@ -184,17 +184,21 @@
         </div>
 
           <!--Display after submit a topic-->
-        <div class="disc-content" id="topic-submit" style="display: none;">
-          <p>Seu tópico foi enviado com sucesso! :D</p>
+        <div class="disc-content" id="topic-submit">
+          <p class="topic-text-send">Seu tópico foi enviado com sucesso! :D</p>
           <h4>Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</h4>
           <h3>
             Descubra outros trabalhos!
           </h3>
-          <div class="recreat-topic" onclick="">
+          <div class="recreat-topic">
             <i class="fa-solid fa-plus"></i>
             <h4>criar novo tópico</h4>
           </div>
           <div id="submit-feedback">
+            
+              <img id="img-check-submit" src="/assets/img/submit-symbol.svg" alt="checagem de enviar">
+              <p>Aguardando feedback dos autores</p>
+              <h3>Editar tópico</h3>
 
           </div>
         </div>
@@ -209,13 +213,13 @@
               <input id="tab-1" placeholder="Defina um tópico sucinto para notificar os autores..." oninput="this.className = ''" name="subject">
               <p>Conteúdo</p>
               
-                <input id="tab-2" type="text" placeholder="Escreva aqui seu tópico..." oninput="this.className = ''" name="content-topic"><input id="tab-submit" type="submit">
+                <input id="tab-2" type="text" placeholder="Escreva aqui seu tópico..." oninput="this.className = ''" name="content-topic"><input id="tab-submit" type="button" onclick="submitTopic()" value="Enviar">
               
             </div>
         </div>
 
         <!--default display-->
-        <div class="disc-content" id="topic-creation" >
+        <div class="disc-content" id="topic-creation">
           <p>Compartilhe suas ideias ou dúvidas com os autores!</p>
           <div class="disc-icons">
             <img src="/assets/img/icons_hand_seed.svg" alt="mão e semente" />
@@ -271,6 +275,7 @@
       </footer>
       <script src="/assets/js/see-more.js"></script>
       <script src="/assets/js/topic-creation.js"></script>
+      <script src="/assets/js/submit-topic.js"></script>
     </div>
   </body>
 </html>
