@@ -244,6 +244,8 @@ border-radius: 4px;
 width: 1028px;
 height: 148px;
 flex-wrap: wrap;
+flex-direction: column;
+justify-content: space-evenly;
   display:none;
   
 }
