@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,19 +7,19 @@
     <title>Chuva - Exercício - Frontend</title>
     <link rel="stylesheet" href="/assets/css/reset.css" />
     <link rel="stylesheet" href="/assets/css/style.css" />
-    <link rel="stylesheet" href="/assets/css/content-around-icons-style.css">
-    <link rel="stylesheet" href="/assets/css/header-content-style.css">
-    <link rel="stylesheet" href="/assets/css/content-details-style.css">
-    <link rel="stylesheet" href="/assets/css/see-more-style.css">
-    <link rel="stylesheet" href="/assets/css/content-discussions-style.css">
-    <link rel="stylesheet" href="/assets/css/side-menu-style.css">
-    
+    <link rel="stylesheet" href="/assets/css/content-around-icons-style.css" />
+    <link rel="stylesheet" href="/assets/css/header-content-style.css" />
+    <link rel="stylesheet" href="/assets/css/content-details-style.css" />
+    <link rel="stylesheet" href="/assets/css/see-more-style.css" />
+    <link rel="stylesheet" href="/assets/css/content-discussions-style.css" />
+    <link rel="stylesheet" href="/assets/css/side-menu-style.css" />
+
     <script
       src="https://kit.fontawesome.com/a718f794f3.js"
       crossorigin="anonymous"
     ></script>
   </head>
-  
+
   <body>
     <div class="body-content" id="change-body-row">
       <div class="side-menu">
@@ -172,7 +171,11 @@
               dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed
               nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget
               tellus gravida venenatis. Integer fringilla congue eros non
-              fermentum. Sed dapibus pulvinar nibh tempor porta.<span id="less" onclick="seeMore()">ver menos</span>
+              fermentum. Sed dapibus pulvinar nibh tempor porta.<span
+                id="less"
+                onclick="seeMore()"
+                >ver menos</span
+              >
             </span>
           </h5>
         </div>
@@ -183,39 +186,59 @@
           <h4>Discussões</h4>
         </div>
 
-          <!--Display after submit a topic-->
+        <!--Display after submit a topic-->
         <div class="disc-content" id="topic-submit">
           <p class="topic-text-send">Seu tópico foi enviado com sucesso! :D</p>
-          <h4>Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</h4>
-          <h3>
-            Descubra outros trabalhos!
-          </h3>
+          <h4>
+            Agradecemos por sua contribuição, uma notificação será enviada ao
+            seu email assim que seu tópico for respondido!
+          </h4>
+          <h3>Descubra outros trabalhos!</h3>
           <div class="recreat-topic" onclick="submitTopic()">
             <i class="fa-solid fa-plus"></i>
             <h4>criar novo tópico</h4>
           </div>
           <div id="submit-feedback">
-            
-              <img id="img-check-submit" src="/assets/img/submit-symbol.svg" alt="checagem de enviar">
-              <p>Aguardando feedback dos autores</p>
-              <h3>Editar tópico</h3>
-
+            <img
+              id="img-check-submit"
+              src="/assets/img/submit-symbol.svg"
+              alt="checagem de enviar"
+            />
+            <p>Aguardando feedback dos autores</p>
+            <h3>Editar tópico</h3>
           </div>
         </div>
 
-
         <!--Display onClick Creat a Topic-->
         <div id="creatingTopic">
-          <p>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
-          <form id="regForm" action="">
+          <p>
+            Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!
+          </p>
+          <form id="regForm">
             <div id="tab">
               <p>Assunto</p>
-              <input id="tab-1" placeholder="Defina um tópico sucinto para notificar os autores..." oninput="this.className = ''" name="subject">
+              <input
+                id="tab-1"
+                placeholder="Defina um tópico sucinto para notificar os autores..."
+                oninput="this.className = ''"
+                name="subject"
+              />
               <p>Conteúdo</p>
-              
-                <input id="tab-2" type="text" placeholder="Escreva aqui seu tópico..." oninput="this.className = ''" name="content-topic"><input id="tab-submit" type="button" onclick="submitTopic()" value="Enviar">
-              
+
+              <input
+                id="tab-2"
+                type="text"
+                placeholder="Escreva aqui seu tópico..."
+                oninput="this.className = ''"
+                name="content-topic"
+              /><input
+                id="tab-submit"
+                type="button"
+                onclick="submitTopic()"
+                value="Enviar"
+              />
             </div>
+          </form>
         </div>
 
         <!--default display-->
@@ -270,12 +293,7 @@
           </div>
         </div>
 
-        <span id="topic-default">
-          
-        </span>
-
-
-
+        <span id="topic-default"> </span>
       </div>
       <footer class="footer">
         <img src="/assets/img/footer.svg" alt="footer galoá" />
