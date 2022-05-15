@@ -250,3 +250,66 @@ justify-content: space-evenly;
   
 }
 
+/* creating topic css */
+
+#creatingTopic{
+  border: 1px solid #E7E7E7;
+  padding-bottom: 15px;
+  padding-right: -30px;
+  margin: 15px;
+  display: none;
+  margin-bottom: -15px;
+}
+
+#creatingTopic p{
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #5C5C5C;
+  margin-top: 10px;
+}
+
+#tab{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #ED7839;
+margin-left: 17.5px;
+}
+
+#tab p{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #ED7839;
+text-align: left;
+
+}
+
+#tab-1{
+  height: 39px;
+  width: 1000px;
+}
+
+#tab-2{
+  height: 113px;
+  width: 1000px;
+}
+
+#tab-submit{
+  left: 802px;
+  position: relative;
+  top: -32px;
+  width: 205px;
+  height: 31px;
+  background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+border-radius: 0px 0px 4px 0px;
+color: #FFFFFF;
+}
