@@ -30,9 +30,11 @@
 .content-video { grid-area: content-video; 
   margin-left: 36px;
   margin-bottom: 27px;
+}
+
+iframe{
   width: 783px;
   height: 439px;
-  border: 0px;
 }
 
 
