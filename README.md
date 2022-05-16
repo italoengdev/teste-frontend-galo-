@@ -25,6 +25,7 @@ figma demostration: https://www.figma.com/proto/0D27YdXU8ibf0AhsBC2OEm/Chuva---E
 - CSS Grid/Flex(Grid layout template: https://grid.layoutit.com/?id=lbUIQXf)
 - Responsivo
 - Manipulação do DOM com controllers JS
+- template string
 
 
 ## Aprendizados
